@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+}
+.ml16 {
+    color: #402d2d;
+    padding: 10px 0;
+    font-weight: 800;
+    font-size: 1,5em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    overflow: hidden;
+  }
+  
+  .ml16 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  jam{
+      font-weight: 800;
+      font-size: 2em;
+  }
+  .jaman{      
+        animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .ucapan{
+    animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    color: blue;
+    text-shadow: chartreuse;
+   
+  }
+  .ta{
+    animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .footer{
+      background-color: grey;
+  }
