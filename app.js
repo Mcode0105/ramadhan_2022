@@ -13,7 +13,7 @@ $(document).ready(function () {
         })
         if (text) {
             let nama = $('.ml16').html(`<span style="text-align: center;" class='letter' > Assalamualaikum ${text}, semoga kamu selalu dalam lindungan Allah SWT , Amiinn</span>`)
-            var audio = new Audio('lagu-ramadahan.mp3');
+            var audio = new Audio('lagu.mp3');
             audio.play();
             anime.timeline({loop: true})
             .add({
